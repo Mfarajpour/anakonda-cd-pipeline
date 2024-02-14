@@ -1,0 +1,12 @@
+resources:
+   - ../deployments/anakonda
+   - ../deployments/mysql
+
+namespace: dev
+namePrefix: anakonda-dev-
+
+images:
+    - name: mfarajpour/anakonda:latest
+      newName: IMAGE_NAME
+      newTag: IMAGE_TAG
+
